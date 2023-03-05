@@ -8,7 +8,13 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#FF3548',
+        'accent': '#00D1C0',
+        'tertiary': '#4D0068',
+      }
+    },
   },
   plugins: [],
 }
