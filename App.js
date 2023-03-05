@@ -8,6 +8,7 @@ const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
+    // Wrapping app in Navigation Container
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name='Home' component={HomeScreen} />
